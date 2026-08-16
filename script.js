@@ -26,7 +26,7 @@ document.querySelectorAll('.reveal').forEach((item) => observer.observe(item));
 document.querySelector('[data-preview-form]').addEventListener('submit', (event) => {
   event.preventDefault();
   event.currentTarget.reset();
-  document.querySelector('.form-note').textContent = "You're on the list, Bettie. (Preview only—email service connects before launch.)";
+  document.querySelector('.form-note').textContent = "You're on the list, Betties. (Preview only—email service connects before launch.)";
 });
 
 const mediaInput = document.querySelector('#broadway-media');
